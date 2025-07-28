@@ -5,7 +5,7 @@ def get_current_date():
     return datetime.datetime.now().strftime("%Y-%m-%d")
 
 root_agent = Agent(
-    name="1_hello_world_agent",
+    name="a1_hello_world_agent",
     model='gemini-2.5-flash-lite',
     description="The hello world agent is a simple agent that says hello world and mentions the current day",
     tools=[get_current_date],
